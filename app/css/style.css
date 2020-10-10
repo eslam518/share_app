@@ -1,0 +1,65 @@
+body {
+    padding: 20px;
+    background-color: #333;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+table {
+    overflow: auto;
+    max-height: 275px !important;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table th {       
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+    min-height: 240px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+iframe * {
+    width: 100%;
+}
+
+form #url {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+form .users-count {
+    text-align: center;
+    font-size: 20px;
+}
+
+form .btn {
+    margin: 10px auto;
+    display: block;
+}
+
+form .input-group {
+    width: 50%;
+    margin: auto;
+}
+
+.input-group .custom-file {
+    margin: 40px auto 5px;
+}
+
+.file-submit {
+    margin-bottom: 20px;
+}
+
+.input-flex {
+    display: flex;
+}
